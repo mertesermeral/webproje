@@ -25,10 +25,10 @@ if (($_POST["username"] != "") or ($_POST["password"] != "")) {
             $_SESSION["pass"] = $pass;
 
            echo $message;
-            header("Refresh: 1; url=/proje/sehrim.html");
+            header("Refresh: 1; url=/webproje/anasayfa.html");
         } else {
             echo '<script language="javascript">';
-            echo 'alert("Kullancı Adı veya Şifre Yanlış")';           
+            echo 'alert("Kullanıcı Adı veya Şifre Yanlış")';           
             echo '</script>';
            
             header("Refresh: 0; url=index.php");

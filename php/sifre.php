@@ -1,5 +1,5 @@
 <?php
-$user = "G191210053@sakarya.edu.tr";
-$pass = "123";
-$message="Hoşgeldin G191210053";
+$user = "g211210047@ogr.sakarya.edu.tr";
+$pass = "46660122850";
+$message="Hoşgeldin G211210047";
 ?>

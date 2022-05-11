@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Şehir Tantımı | SAMSUN</title>
+    <title> Kullanıcı Girişi</title>
     <link rel="stylesheet" type="text/css" href="style.css" >
 
     <style type="text/css">
@@ -13,9 +13,8 @@
             margin: 0;
             padding: 0;
             font-family: sans-serif;
-            background-color: #2c3e50;
-
-
+            background-color: #280137;
+            
 
         }
 
@@ -27,7 +26,7 @@
             top: 50%;
             left: 50%;
             transform: translate(-50%, -50%);
-            background: #2c3e50;
+            background: #280137;
             text-align: center;
 
 
@@ -91,7 +90,9 @@
             color: white;
             text-transform: uppercase;
             font-weight: 500;
-
+        }
+        .box td{
+            color: white;
         }
     </style>
 
@@ -104,12 +105,12 @@
             <h1>Giriş Sayfasına Hoşgeldiniz</h1>
 
             <tr>
-                <td>Kullanici Adi</td>
+                <td>Kullanıcı Adı</td>
                 <td>:</td>
                 <td><input type="text" name="username"></td>
             </tr>
             <tr>
-                <td>Sifre</td>
+                <td>Şifre</td>
                 <td>:</td>
                 <td><input type="password" name="password"></td>
             </tr>
