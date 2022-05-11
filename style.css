@@ -10,7 +10,7 @@ h1,h2,h4{
 }
 p{
     font-size: 120%;
-    font-family: "Comic Sans MS";
+    font-family: "Trebuchet MS";
 }
 
 .card{
@@ -89,5 +89,14 @@ height: 220px;
 .carousel-title{
   text-decoration-color: black;
 
+
+}
+.login-page {
+
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: #280137;
+  
 
 }
