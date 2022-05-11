@@ -48,3 +48,4 @@ if (($_POST["username"] != "") or ($_POST["password"] != "")) {
 }
 
 ob_end_flush();
+?>
